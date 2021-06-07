@@ -43,6 +43,8 @@
         </script>
 
         @yield('styles')
+
+        <script src="https://www.google.com/recaptcha/api.js"></script>
     </head>
     <body>
         <div class="container-full">
@@ -86,5 +88,11 @@
         {{ Html::script("assets/plugins/google-maps/google_maps.js") }}
 
         @yield('scripts')
+
+        <script>
+            function onSubmit(token) {
+                document.getElementById("formValidation").submit();
+            }
+        </script>
     </body>
 </html>

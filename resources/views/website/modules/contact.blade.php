@@ -1,10 +1,11 @@
 <div class="row color-blue">
-	<div class="col-md-6 img-module-container">
-		<img src="{{ URL::to('/assets/images/index/contact.jpg') }}" alt="...">
-	</div>
-	<div class="col-md-6 padding-25">
-		<h2 class="color-blue">LLENA EL FORMULARIO Y EN BREVE NOS PONDREMOS EN CONTACTO CONTIGO</h2>
+  <div class="col-md-6 img-module-container">
+    <img src="{{ URL::to('/assets/images/index/contact.jpg') }}" alt="...">
+  </div>
+  <div class="col-md-6 padding-25">
+    <h2 class="color-blue">LLENA EL FORMULARIO Y EN BREVE NOS PONDREMOS EN CONTACTO CONTIGO</h2>
       {!! Form::open(['route' => 'contact', 'method' => 'post', 'id' => 'formValidation', 'class' => 'form-horizontal']) !!}
+          {{ csrf_field() }}
           <div class="form-group {{ $errors->first('name') ? 'has-error' : '' }}">
               <div class="col-sm-12">
                         {!! Form::text('name', old('name'), ['id' => 'name', 'class' => 'form-control', 'placeholder' => trans('validation.attributes.name')]) !!}
@@ -31,9 +32,9 @@
           </div>
           <div class="form-group">
               <div class="col-sm-12 text-right">
-                  {!! Form::submit(trans($active.'.send'), ['class' => 'btn btn-default']) !!}
+                  {!! Form::submit(trans($active.'.send'), ['class' => 'btn btn-default g-recaptcha', 'data-sitekey' => 'recaptcha-key', 'data-callback' => 'onSubmit', 'data-action' => 'submit']) !!}
               </div>
           </div>
       {!! Form::close() !!}
-	</div>
+  </div>
 </div>
