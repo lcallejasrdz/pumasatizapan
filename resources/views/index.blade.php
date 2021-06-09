@@ -46,14 +46,11 @@
 		</div>
 	</div>
 
-	{{-- Bases --}}
-	@include('website.modules.workplan')
+	{{-- Instalaciones --}}
+	@include('website.modules.installations')
 
 	{{-- Programas --}}
 	@include('website.modules.benefits')
-
-	{{-- Instalaciones --}}
-	@include('website.modules.installations')
 
 	{{-- Contacto --}}
 	@include('website.modules.contact')

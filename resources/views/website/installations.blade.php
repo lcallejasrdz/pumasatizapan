@@ -38,7 +38,7 @@
 		// Initialize and add the map
 		function initMap() {
   			// The location of Uluru
-  			var uluru = {lat: 19.500479, lng: -99.259598};
+  			var uluru = {lat: 19.557505, lng: -99.2354709};
   			// The map, centered at Uluru
   			var map = new google.maps.Map(
       			document.getElementById('map'), {zoom: 16, center: uluru});
@@ -46,9 +46,9 @@
   			var contentString = '<div id="content">'+
       			'<div id="siteNotice">'+
 		      	'</div>'+
-		      	'<h1 id="firstHeading" class="firstHeading">Escuela de Fútbol Pumas San Mateo</h1>'+
+		      	'<h1 id="firstHeading" class="firstHeading">Escuela de Fútbol Pumas Atizapán</h1>'+
 		      	'<div id="bodyContent">'+
-		      	'<p>Av. Principal S/N, Santiago Occipaco, Naucalpan de Juárez, Méx. C.P. 53250</p>'+
+		      	'<p>P. de México 90, Jardines de Atizapan, Cd. López Mateos, Méx. C.P. 52978</p>'+
 		      	'</div>'+
 		      	'</div>';
 

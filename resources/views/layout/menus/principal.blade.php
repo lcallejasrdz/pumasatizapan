@@ -1,7 +1,7 @@
 <div class="row bg-gold">
     <div class="col-xs-4 col-sm-2 col-md-1"></div>
     <div class="col-xs-8 col-sm-10 col-md-11">
-        <p class="text-center title-head text-uppercase">{{ env('APP_NAME') }}<br class="hidden-md hidden-lg"><a href="https://www.facebook.com/FilialPumasSanMateo/" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a><a href="https://www.instagram.com/pumassanmateo/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>{{-- <a href="#"><i class="fa fa-youtube-square fa-fw"></i></a> --}}</p>
+        <p class="text-center title-head text-uppercase">{{ env('APP_NAME') }}<br class="hidden-md hidden-lg"><a href="https://www.facebook.com/Filial-Pumas-Atizapán-110041751281637/" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a>{{-- <a href="https://www.instagram.com/pumassanmateo/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a> --}}{{-- <a href="#"><i class="fa fa-youtube-square fa-fw"></i></a> --}}</p>
     </div>
 </div>
 <nav class="navbar navbar-default">
@@ -28,11 +28,11 @@
                         INICIO
                     </a>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="{{ URL::route('objectives') }}" class="text-blue">
                         OBJETIVOS
                     </a>
-                </li>
+                </li> --}}
                 <li>
                     <a href="{{ URL::route('installations') }}" class="text-blue">
                         INSTALACIONES
@@ -48,11 +48,11 @@
                         PLAN DE TRABAJO
                     </a>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="{{ URL::route('downloads') }}" class="text-blue">
                         DESCARGAS
                     </a>
-                </li>
+                </li> --}}
                 <li>
                     <a href="{{ URL::route('contact') }}" class="text-blue">
                         CONTACTO
