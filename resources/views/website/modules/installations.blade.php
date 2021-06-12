@@ -19,21 +19,6 @@
 					<li>
 						<img src="{{ URL::to('/assets/images/index/slide2d.jpg') }}" alt="" title="" id="wows1_3"/>
 					</li>
-					<li>
-						<img src="{{ URL::to('/assets/images/index/slide2e.jpg') }}" alt="" title="" id="wows1_4"/>
-					</li>
-					<li>
-						<img src="{{ URL::to('/assets/images/index/slide2f.jpg') }}" alt="" title="" id="wows1_5"/>
-					</li>
-					<li>
-						<img src="{{ URL::to('/assets/images/index/slide2g.jpg') }}" alt="" title="" id="wows1_6"/>
-					</li>
-					<li>
-						<img src="{{ URL::to('/assets/images/index/slide2h.jpg') }}" alt="" title="" id="wows1_7"/>
-					</li>
-					<li>
-						<img src="{{ URL::to('/assets/images/index/slide2i.jpg') }}" alt="" title="" id="wows1_8"/>
-					</li>
 				</ul>
 			</div>
 			{{-- <div class="ws_bullets">
