@@ -1,6 +1,6 @@
 <div class="row color-blue">
 	<div class="col-md-5 img-module-container">
-		<img src="{{ URL::to('/assets/images/index/flag.svg') }}" alt="..." class="padding-bottom-0">
+		<img src="{{ URL::to('/assets/images/index/flag.png') }}" alt="..." class="padding-bottom-0">
 	</div>
 	<div class="col-md-7">
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
