@@ -18,11 +18,11 @@
 		</div>
 		<div class="col-xs-12 contact-card">
 			<p class="text-center">Teléfonos</p>
-			<p class="text-center"><a href="tel:+525579785437">55-7978-5437</a> | <a href="tel:+525541350517">55-4135-0517</a></p>
+			<p class="text-center"><a href="tel:+525579785437">55-7978-5437</a> | <a href="tel:+525541350517">55-1300-9532</a></p>
 		</div>
 		<div class="col-xs-12 contact-card">
 			<p class="text-center">Informes</p>
-			<p class="text-center"><a href="mailto:info@pumassanmateo.com?Subject=Me%20interesa%20saber%20más%20de%20Pumas%20San%20Mateo">info@pumassanmateo.com</a></p>
+			<p class="text-center"><a href="mailto:info@pumasatizapan.com?Subject=Me%20interesa%20saber%20más%20de%20Pumas%20San%20Mateo">info@pumasatizapan.com</a></p>
 		</div>
 	</div>
 	<div class="row">
